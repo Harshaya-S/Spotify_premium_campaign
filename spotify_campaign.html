@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Spotify Premium+ Campaign</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+    }
+    .container {
+      width: 600px;
+      margin: 30px auto;
+      background-color: #121212;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+      animation: slideUp 1.5s ease-in-out;
+    }
+    @keyframes slideUp {
+      0% { transform: translateY(100px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    .header {
+      background-color: #1DB954;
+      padding: 20px;
+      text-align: center;
+    }
+    .header img {
+      width: 80px;
+    }
+    .header h1, .header p {
+      color: #fff;
+      margin: 10px 0;
+    }
+    .features, .cta {
+      padding: 20px;
+      color: #fff;
+    }
+    .features ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .features li {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .gallery {
+      text-align: center;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 45%;
+      margin: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .cta a {
+      display: inline-block;
+      background-color: #1DB954;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+    .cta a:hover {
+      background-color: #1ed760;
+    }
+    .footer {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+    }
+    .footer a {
+      color: #1DB954;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header Banner -->
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify Logo" />
+      <h1>Introducing Spotify Premium+</h1>
+      <p>Level up your music journey 🎧</p>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+      <h2>Why go Premium+?</h2>
+      <ul>
+        <li>🚫 No ads. Just uninterrupted music.</li>
+        <li>📥 Download and listen offline.</li>
+        <li>🎵 Superior sound quality – feel every beat.</li>
+        <li>🔁 Unlimited skips. Play what you want.</li>
+      </ul>
+    </div>
+
+    <!-- Image Gallery Section -->
+    <div class="gallery">
+      <img src="s1.jpeg" alt="Spotify Connect">
+      <img src="s2.jpeg" alt="Spotify Premium on Mobile">
+      <img src="s3.jpeg" alt="Spotify App">
+      <img src="s4.jpeg" alt="Spotify Premium Crown">
+    </div>
+
+    <!-- CTA Section -->
+    <div class="cta" style="text-align:center;">
+      <a href="https://www.spotify.com/premium/">Try Premium+ Free for 1 Month</a>
+      <p style="color:#aaa; font-size:14px; margin-top:10px;">Cancel anytime. No commitments.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      © 2025 Spotify AB. All rights reserved. <br />
+      <a href="#">Unsubscribe</a> | <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+
+</body>
+</html>
