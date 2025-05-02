@@ -1,46 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Spotify Campaign Zip</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f4f4f4;
-            margin: 0;
-        }
-        .container {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .download-button {
-            display: inline-block;
-            padding: 15px 30px;
-            background-color: #1DB954;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-            transition: background-color 0.3s ease;
-        }
-        .download-button:hover {
-            background-color: #1ed760;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Premium+ Campaign</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+    }
+    .container {
+      width: 90%;
+      max-width: 600px;
+      margin: 30px auto;
+      background-color: #121212;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+      animation: slideUp 1.5s ease-in-out;
+    }
+    @keyframes slideUp {
+      0% { transform: translateY(100px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    .header {
+      background-color: #1DB954;
+      padding: 20px;
+      text-align: center;
+    }
+    .header img {
+      width: 80px;
+    }
+    .header h1, .header p {
+      color: #fff;
+      margin: 10px 0;
+    }
+    .features, .cta {
+      padding: 20px;
+      color: #fff;
+    }
+    .features ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .features li {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .gallery {
+      text-align: center;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 45%;
+      margin: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .cta {
+      text-align: center;
+    }
+    .cta a {
+      display: inline-block;
+      background-color: #1DB954;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+    .cta a:hover {
+      background-color: #1ed760;
+    }
+    .cta p {
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .footer {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+    }
+    .footer a {
+      color: #1DB954;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+    .branding {
+      color: #888;
+      font-size: 12px;
+      margin-top: 20px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .branding a {
+      color: #1DB954;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Ready to Download?</h1>
-        <p>Click the button below to download the Spotify campaign package.</p>
-        <a href="spotify_campaign.zip" class="download-button" download="spotify_campaign.zip">Download Now</a>
+
+  <div class="container">
+    <!-- Header Banner -->
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify Logo" />
+      <h1>Introducing Spotify Premium+</h1>
+      <p>Level up your music journey 🎧</p>
     </div>
+
+    <!-- Features Section -->
+    <div class="features">
+      <h2>Why go Premium+?</h2>
+      <ul>
+        <li>🚫 No ads. Just uninterrupted music.</li>
+        <li>📥 Download and listen offline.</li>
+        <li>🎵 Superior sound quality – feel every beat.</li>
+        <li>🔁 Unlimited skips. Play what you want.</li>
+      </ul>
+    </div>
+
+    <!-- Image Gallery Section -->
+    <div class="gallery">
+      <img src="s1.jpeg" alt="Spotify Connect">
+      <img src="s2.jpeg" alt="Spotify Premium on Mobile">
+      <img src="s3.jpeg" alt="Spotify App">
+      <img src="s4.jpeg" alt="Spotify Premium Crown">
+    </div>
+
+    <!-- CTA Section -->
+    <div class="cta">
+      <a href="https://www.spotify.com/premium/">Try Premium+ Free for 1 Month</a>
+      <p>Cancel anytime. No commitments.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      © 2025 Spotify AB. All rights reserved. <br />
+      <a href="#">Unsubscribe</a> | <a href="#">Privacy Policy</a>
+    </div>
+
+    <!-- Branding Section -->
+    <div class="branding">
+      💼 Created by <strong>Harshaya S.</strong><br>
+      🎓 AI Enthusiast | Data Analyst | Digital Marketing <br>
+      🌐 
+      <a href="https://github.com/Harshaya-S" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/harshaya-senthilkumar-455b67248" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
 </body>
 </html>
